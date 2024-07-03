@@ -7,7 +7,6 @@ The output will be a .csv file with the frequency of each base called relative t
 ## Output .csv sample
 ![image](https://github.com/julielmcdonald/GbR/assets/56400444/616fecb6-78f0-45ec-ae7d-03f6791218e8)
 
-
 ## Description and usage for each file:
 
 ### 1. flowcellCats.sh 
@@ -34,6 +33,7 @@ The output will be a .csv file with the frequency of each base called relative t
 ### 5. master_table_generator_indel_counter.pl and master_table_header_generator_with_indels.pl  
 **Purpose:** Custom-written Perl scripts to assemble master table .csv file. Do not need to be changed. 
 
+## Additional files
 
-
-
+### 1. heatmap.ipynb
+Python/Jupyter notebook code for RDE-style heatmap generation
