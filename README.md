@@ -1,4 +1,4 @@
-# GbR, 2024
+# GWS1B 2024
 ## Workflow for processing next-generation sequencing of directed evolution libraries
 The following processing is appropriate for demultiplexed, paired-end .fastq files received from Illumina or Element short-read sequencing. It assumes your environment contains bwa and samtools. 
 
