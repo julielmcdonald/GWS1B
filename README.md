@@ -15,7 +15,7 @@ The output will be a .csv file with the frequency of each base called relative t
 
 ### 2. mapping_script_fast_PE_withdownsample.sh
 **Purpose:** Map fastq files to reference DNA sequence using Burrows-Wheeler Aligner.  
-**Usage (slurm):** sbatch mapping_script_fast_PE_withdownsample.sh fasta1.fastq fasta2.fastq output_directory refseq.fa refseq_name 
+**Usage (slurm):** sbatch mapping_script_fast_PE_withdownsample.sh fasta1.fastq fasta2.fastq output_directory refseq.fa refseq_name
 **Notes:** 
 * Mapping includes downsampling of reads to 10% to account for compute power.  
 * Reference sequence must first be indexed using bwa.  
