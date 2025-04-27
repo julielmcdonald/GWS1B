@@ -1,9 +1,6 @@
 #!/bin/sh
 #SBATCH -N 1
 #SBATCH -n 4
-#SBATCH --nice=100000
-#SBATCH --exclude=c[5-22]
-
 ###################
 
 module load bwa/0.7.12
